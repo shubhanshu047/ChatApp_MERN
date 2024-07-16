@@ -6,6 +6,8 @@ const Login = lazy(()=>import("./pages/Login"));
 const Chat = lazy(()=>import("./pages/Chat"));
 const Group = lazy(()=>import("./pages/Group"));
 
+let user = true;
+
 const App = () => {
   return <BrowserRouter>
     <Routes>
