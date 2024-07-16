@@ -17,11 +17,11 @@ export default function Login() {
                             <TextField required fullWidth label="Username" margin="normal" variant="outlined" />
                             <TextField required fullWidth label="Password" margin="normal" variant="outlined" />
                             <Button fullWidth variant="contained" color="primary" type="submit" sx={{ marginTop: "1rem", }}>
-                                Login instead
+                                Login
                             </Button>
                             <Typography textAlign={"center"} m={"1rem"}>OR</Typography>
                             <Button fullWidth sx={{padding: "0px !important"}} variant="text" onClick={() => setisLogin(false)} >
-                                Sign Up
+                                Sign Up Instead
                             </Button>
                         </form>
                     </>)
